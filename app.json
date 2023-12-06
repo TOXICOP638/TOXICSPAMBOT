@@ -1,6 +1,6 @@
 {
-    "name": "GodfatherX HERE.",
-    "logo": "https://telegra.ph/file/3ee5c13390412705edda4.jpg",
+    "name": "TOXIC_X HERE.",
+    "logo": "https://graph.org/file/5f1eda2873f74bad0c367.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/mrtosumemon/GODFATHER_SPAM2.1",
+    "repository": "https://graph.org/file/5f1eda2873f74bad0c367.jpg",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
