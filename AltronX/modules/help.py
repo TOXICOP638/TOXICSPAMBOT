@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝙂𝙊𝘿𝙁𝘼𝙏𝙃𝙀𝙍 𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @YOUR_GODFATHER_XD**"
+PythonHelp = f"★ 𝙏𝙊𝙓𝙄𝘾 𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @NOOBS_ALWAYS_OP**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝙂𝙊𝘿𝙁𝘼𝙏𝙃𝙀𝙍 𝙃𝙀𝙇𝙋 𝙈�
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://telegra.ph/file/3ee5c13390412705edda4.jpg",
+                                  "https://graph.org/file/5f1eda2873f74bad0c367.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/THE_INCRICIBLE"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/HEROKU_CC_STORE"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DOSTO_KI_M3HFIL")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @YOUR_GODFATHER_XD**
+**© @NOOBS_ALWAYS_OP**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @YOUR_GODFATHER_XD**
+**© @NOOBS_ALWAYS_OP**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @YOUR_GODFATHER_XD**
+** © @NOOBS_ALWAYS_OP**
 """                     
            
            
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/THE_INCRICIBLE"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/HEROKU_CC_STORE"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DOSTO_KI_M3HFIL")
            ],
            ],
         )           
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Toxic Bots !! @NOOBS_ALWAYS_OP", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Toxic Bots !! @NOOBS_ALWAYS_OP", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Make Your Own Tosu bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Toxic bots !! @NOOBS_ALWAYS_OP", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Toxic Bots !! @NOOBS_ALWAYS_OP", cache_time=0, alert=True)
