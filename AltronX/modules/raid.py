@@ -114,7 +114,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙ ᴋᴀʀ ʙᴀᴋᴄʜᴏᴅɪ 😎", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -131,7 +131,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» ᴀʙ ᴋᴀʀ ʙᴀᴋᴄʜᴏᴅɪ 😎", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -161,7 +161,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ʀᴇᴘʟʏ ʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ᴄʜᴏʀᴅ ᴅɪʏᴀ ᴊᴀᴀ ᴍᴏᴊ ᴋᴀʀ ᴋɪᴅᴅ 🥺", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -171,7 +171,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ʀᴇᴘʟʏ ʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ᴄʜᴏʀᴅ ᴅɪʏᴀ ᴊᴀᴀ ᴍᴏᴊ ᴋᴀʀ ᴋɪᴅᴅ 🥺", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
