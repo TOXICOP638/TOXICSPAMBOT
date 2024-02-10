@@ -39,10 +39,10 @@ async def echo(event):
             except BaseException:
                 pass
             if is_echo(user_id, chat_id):
-                await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜɪꜱ ᴜꜱᴇʀ !!")
+                await event.reply("» ꜱᴜʀᴜ ᴋᴀʀᴅɪʏᴀ ʜᴀɪ 😁")
                 return
             addecho(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ ✅")
+            await event.reply("» ꜱᴜʀᴜ ᴋᴀʀᴏ 😂")
      else:
           await event.reply(usage)
 
