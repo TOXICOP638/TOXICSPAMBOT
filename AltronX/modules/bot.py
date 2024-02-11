@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» #TOXIC", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» #ᴛᴇᴀᴍ_ᴄʀɪᴍɪɴᴀʟꜱ_ꜰɪɢʜᴛᴇʀ😈", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__🤖 ᴘɪɴɢ__\n» `{mp} ms`")
+        await altron.edit(f"__ᴘᴇʟɴᴇ ᴋᴏ ᴛʏᴀᴀʀ ʜᴀɪ__\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -114,7 +114,7 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ !!")
+            await ok.edit("» ʀᴜᴋ ᴊᴀᴀᴏ ᴍᴀᴀʟɪᴋ😋")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
