@@ -8,7 +8,7 @@ PIC = config.ALIVE_PIC
 if config.ALIVE_PIC:
     TCF_PIC = PIC
 else:
-    TCF_PIC = "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+    TCF_PIC = "https://telegra.ph/file/1b04a4a84ad51aa9887a2.jpg"
 
 hl = config.CMD_HNDLR
 
