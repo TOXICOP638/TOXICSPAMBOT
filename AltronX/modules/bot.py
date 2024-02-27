@@ -122,22 +122,6 @@ async def addsudo(event):
         await ok.edit(f"» **ᴘᴀᴋᴀᴅ ʟɪʏᴀ**: `{target}`\n» `ʀᴜᴋ ᴊᴀᴀᴏ ᴀʙʜɪ...`")
         heroku_var[mks] = newsudo  
 
-@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%sdelsudo(?: |$)(.*)" % hl))
-async def delb(event):
-    if event.sender_id in == OWNER_ID:
-         if event.reply_to_msg_id is not None:
-            reply_msg = await event.get_reply_message()
-            user_id = reply_msg.sender_id
-            ok = await event.reply("**ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ 🥀**")
-            if user_id not in SUDOERS:
-                await ok.edit("ᴜꜱᴇʀ ᴀʟʀᴇᴀᴅʏ  ɪɴ   ꜱᴜᴅᴏʟɪꜱᴛ 💫") 
-            else:
-                SUDOERS.remove(user_id) 
-                await ok.edit(f"ʀᴇᴍᴏᴠᴇᴅ {user_id} ғʀᴏᴍ ꜱᴜᴅᴏʟɪꜱᴛ 💫") 
-         else:
-             await event.reply(f"**» ᴘʟᴇᴀꜱᴇ ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ ! **")
-   
-     
 async def get_user(event):
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
