@@ -7,16 +7,16 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events
 
 
-@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
@@ -26,16 +26,16 @@ async def ping(e):
         await altron.edit(f"__ʜᴇʀᴇ__\n» `{mp} ms`")
 
 
-@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sbsdka(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
         await e.reply(f"**ᴀʀᴇ ʙʜᴇɴᴄʜᴏᴅ**: ᴛᴏ ᴋʏᴀ ᴋᴀʀᴜ ᴊᴏʙ ᴄʜᴏʀᴅ ᴅᴜ ᴋʏᴀ ʙᴄ 🥺")
